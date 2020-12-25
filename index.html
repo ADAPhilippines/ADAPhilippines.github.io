@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ADA Philippines | The Best Cardano Pool in The Philippines</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body {
+			background-color: #0d1a25;
+			background-image: url('/images/adaph_bg.jpg');
+			background-size: 100% auto;
+			background-repeat: no-repeat;
+			background-position: calc(50vw - 1002px / 2) calc(50vh - 604px / 2);
+			background-size: 1002px 604px;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		#logo {
+			margin: auto;
+			width: 751px;
+			height: 262px;
+			margin-top: calc(50vh - 262px / 2);
+			position: relative;
+		}
+
+		#logo img:nth-child(1) {
+			transform: translateX(233px);
+			animation: logoA 10s infinite ease-in-out;
+			animation-direction: alternate;
+			animation-delay: 0s, 5s;
+		}
+
+		#logo img:nth-child(2) {
+			margin-left: -61px;
+			opacity: 0;
+			transform: translateX(8px);
+			animation: logoD 10s infinite ease-in-out;
+			animation-direction: alternate;
+			animation-delay: 0s, 5s;
+		}
+
+		#logo img:nth-child(3) {
+			margin-left: -61px;
+			opacity: 0;
+			transform: translateX(-222px);
+			animation: logoA2 10s infinite ease-in-out;
+			animation-direction: alternate;
+			animation-delay: 0s, 5s;
+		}
+
+		@keyframes logoA {
+			0% {
+				transform: translateX(233px);
+			}
+
+			20%, 49% {
+				transform: translateX(0px);
+			}
+
+			50%, 100% {
+				transform: translateX(0px);
+			}
+		}
+
+		@keyframes logoD {
+			0%  {
+				transform: translateX(8px);
+				opacity: 0;
+			}
+
+			20%, 49% {
+				transform: translateX(0px);
+				opacity: 1;
+			}
+
+			50%, 100% {
+				transform: translateX(0px);
+				opacity: 1;
+			}
+		}
+
+		@keyframes logoA2 {
+			0% {
+				transform: translateX(-222px);
+				opacity: 0;
+			}
+
+			20%, 49% {
+				transform: translateX(0px);
+				opacity: 1;
+			}
+
+			50%, 100% {
+				transform: translateX(0px);
+				opacity: 1;
+			}
+		}
+
+		#logo img:last-child {
+			position: absolute;
+			right: -17px;
+			top: 10px;
+		}
+
+		.message {
+			color: white;
+			text-align: center;
+			font-size: 40px;
+			margin-top: 10px;
+		}
+
+		a,
+		a:link,
+		a:visited {
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="logo">
+		<img src="images/logo_a.png" />
+		<img src="images/logo_d.png" />
+		<img src="images/logo_a.png" />
+		<img src="images/logo_ph.png" />
+	</div>
+	<div class="message">coming soon...</div>
+	<div class="message">Chat with us in the meantime, <a href="https://teams.microsoft.com/join/31uuh2v7iuse"
+			target="_blank">Click here to join!</a></div>
+</body>
+
+</html>
